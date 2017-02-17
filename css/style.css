@@ -1,0 +1,22 @@
+/**
+  DECLARE VARIABLES
+*/
+body {
+  height: 100%;
+  background-color: #ffffff;
+  background-image: url("http://www.thesleeperinside.com:8080/wostudiereich/images/hpbackround.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.color-wo {
+  color: #5f89d7; }
+.color-studiere {
+  color: #a1d480; }
+.color-ich {
+  color: #e2c15e; }
+
+nav + .teaser {
+  margin-top: 50px; }
+
+/*# sourceMappingURL=style.css.map */

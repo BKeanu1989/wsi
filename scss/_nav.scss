@@ -1,0 +1,18 @@
+.color {
+	&-wo {
+		color: $colorWo;
+	}
+	&-studiere {
+		color: $colorStudiere;
+	}
+	&-ich {
+		color: $colorIch;
+	}
+}
+
+nav {
+	+ .teaser {
+	margin-top: 50px;
+	}
+}
+
