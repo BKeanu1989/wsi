@@ -1,10 +1,15 @@
 /**
   DECLARE VARIABLES
 */
-body {
+/* TODO INHERIT FROM CLASSES */
+html, body {
   height: 100%;
-  background-color: #ffffff;
+  padding: 0;
+  margin: 0; }
+
+body {
   background-image: url("http://www.thesleeperinside.com:8080/wostudiereich/images/hpbackround.jpg");
+  background-color: #ffffff;
   background-position: center;
   background-size: cover;
   background-attachment: fixed; }
@@ -16,7 +21,62 @@ body {
 .color-ich {
   color: #e2c15e; }
 
+.white {
+  color: white; }
+
+.center {
+  text-align: center;
+  margin: 0 auto; }
+
+.bold {
+  font-weight: bold; }
+
+.service-container {
+  background-color: white; }
+
+/* hide special elements due static site */
 nav + .teaser {
   margin-top: 50px; }
+nav.navbar {
+  border: none; }
+nav.navbar-default {
+  background-color: initial;
+  border-color: initial;
+  color: white; }
+  nav.navbar-default ul.navbar-nav > li > a {
+    color: white; }
+
+.service-container {
+  background-color: white; }
+
+#requesting_block > span:nth-child(4) {
+  display: none; }
+
+#requesting_block > span:nth-child(5) {
+  display: none; }
+
+.form-group i {
+  line-height: inherit; }
+
+.slogan {
+  background-color: #1A1A1A;
+  padding: 50px; }
+
+.advantages-container {
+  background-color: #F6F6F6; }
+
+.about-us-container {
+  background-color: white; }
+
+.blog-container {
+  background-color: #F6F6F6; }
+
+.center-img {
+  margin: 0 auto; }
+
+.carousel-img {
+  width: 400px; }
+.carousel-inner {
+  width: 85%; }
 
 /*# sourceMappingURL=style.css.map */

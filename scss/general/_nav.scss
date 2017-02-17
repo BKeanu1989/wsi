@@ -1,0 +1,23 @@
+
+
+nav {
+	+ .teaser {
+	margin-top: 50px;
+	}
+	&.navbar {
+		border:none;
+	}
+	&.navbar-default {
+		background-color: initial;
+		border-color: initial;
+		color:white; 
+		ul {
+				&.navbar-nav > li > a {
+				color: white;
+			}
+		}
+	}
+
+
+}
+

@@ -1,0 +1,16 @@
+.blog-container {
+	background-color: $greyishBackground;
+}
+
+.center-img{
+	margin: 0 auto;
+}
+
+.carousel {
+	&-img {
+	width:400px;
+	}
+	&-inner {
+		width: 85%;
+	}
+}

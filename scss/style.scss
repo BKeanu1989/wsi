@@ -2,17 +2,58 @@
   DECLARE VARIABLES
 */
 
+/* TODO INHERIT FROM CLASSES */
+
 $colorWo: rgb(95, 137, 215);
 $colorStudiere: rgb(161, 212, 128);;
 $colorIch: rgb(226, 193, 94);
+$greyishBackground: #F6F6F6; 
 
+html, body {
+  height:100%;
+  padding:0;
+  margin:0;
+}
 body {
-  height: 100%;
-  background-color: #ffffff;
   background-image: url('http://www.thesleeperinside.com:8080/wostudiereich/images/hpbackround.jpg');  
+  background-color: #ffffff;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
 }
 
-@import "nav";
+.color {
+  &-wo {
+    color: $colorWo;
+  }
+  &-studiere {
+    color: $colorStudiere;
+  }
+  &-ich {
+    color: $colorIch;
+  }
+}
+
+.white {
+  color: white;
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.service-container {
+  background-color: white;
+}
+
+
+
+/* hide special elements due static site */ 
+
+@import "general/nav";
+@import "homepage";

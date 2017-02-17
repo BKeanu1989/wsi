@@ -13,7 +13,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="http://www.thesleeperinside.com:8080/wostudiereich/">
-
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <title>Wo studiere ich?</title>
 
     <!-- Bootstrap core CSS -->
@@ -24,6 +24,7 @@
     <!-- Custom styles for this template -->
     <!-- <link href="./wsi_homepage_files/cover2.css" rel="stylesheet"> -->
     <link href="./css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <style id="stylerStyle"></style><script id="stylerScript"></script><link rel="stylesheet" type="text/css" href="chrome-extension://nknonnojlmhnmjhpeokdbeineeajcemh/dict-cc-styles.css"><link rel="stylesheet" type="text/css" href="chrome-extension://nknonnojlmhnmjhpeokdbeineeajcemh/dict-cc-styles.css"><link rel="stylesheet" type="text/css" href="chrome-extension://nknonnojlmhnmjhpeokdbeineeajcemh/dict-cc-styles.css"><link rel="stylesheet" type="text/css" href="chrome-extension://nknonnojlmhnmjhpeokdbeineeajcemh/dict-cc-styles.css"><link rel="stylesheet" type="text/css" href="chrome-extension://nknonnojlmhnmjhpeokdbeineeajcemh/dict-cc-styles.css"></head>
 
   <body onkeypress="keyFunc(event)" cz-shortcut-listen="true">
@@ -46,7 +47,7 @@
 
 		    <!-- Collect the nav links, forms, and other content for toggling -->
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		      <ul class="nav navbar-nav navbar-right">
+		      <ul class="nav navbar-nav navbar-right bold">
 		        <li class="mynav"><a href="/wsi_kevin.html">Home</a></li>
 		        <li class="mynav"><a href="#">Was bieten wir</a></li>
 		        <li class="mynav"><a href="#">Vorteile</a></li>
@@ -57,7 +58,7 @@
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
 		</nav>
-		<div class="teaser">
+		<div class="teaser white center">
 			<div class="teaser-h1">
 				<h1>Wo Studiere Ich</h1>
 			</div>
@@ -65,351 +66,154 @@
 				<h2>Finde den Studienplatz, der zu deiner Note passt! (Beta)</h2>
 			</div>
 		</div>
-   <div class="site-wrapper" id="all">
-<!-- start main -->
-      <div class="site-wrapper-inner" id="main">
-        <div class="cover-container">
-          <div class="inner cover">
-            <div class="logo-text">
-            	Wo Studiere Ich
-          	</div>
-            <div class="logo-text-small">
-            	Finde den Studienplatz, der zu Deiner Note passt! (Beta)
-            </div>
-			<div class="request-width input-group" id="requesting_block">
-			    <span class="input-group-btn">
-			    	<button class="btn btn-default search_main maininputButton disabled" id="button_frage" type="button" onclick="frage(&#39;generalInputField&#39;)">
-			    		<img src="http://www.thesleeperinside.com:8080/wostudiereich/images/question-mark.png" width="15">
-		    		</button>
-	    		</span>
-	    		<span class="input-group-btn maininputF">
-	    			<input type="text" id="input_main" class="form-control request-font search_main" placeholder="Studiengang Stadt NC oder Stadt Stadt Studiengang Studiengang">
-    			</span>
-    			<span class="input-group-btn">
-    				<button class="btn btn-default search_main maininputButton" id="button_main" type="button" onclick="retrieveWrapper()">
-    					<img src="http://www.thesleeperinside.com:8080/wostudiereich/images/search.png" width="16">
-    				</button>
-				</span>
-				</div><!-- /input-group -->
-		    <div class="alert alert-success popup hidden" id="generalpopup" onclick="hidePopup(&#39;generalpopup&#39;)">
-	    	</div>
-          </div>
-
-        </div>
-      </div>
-    </div> <!-- 2.2. 15:43 --> 
- <!-- end main -->
- 	<div class="sloganclass" id="slogan">
- 		<div class="sloganmain">Von Studenten für Studenten - Wir gehen den Weg gemeinsam!</div>
- 		<div class="slogansignature">Dein WoStudiereIch Team</div>
- 	</div>
- 	
- 	<div class="wasbietenwirclass" id="wasbietenwir">
-        <div class="row" id="wasbietenwirrow">
-    	    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 text-right wasbietenwirinnerclass" id="logDiv">
-	 			<img src="./wsi_homepage_files/logo.8155b732.svg" width="60%" height="60%" alt="some text">
+		<form class="form-inline center">
+			<div class="form-group">
+				<i class="fa fa-question form-control" aria-hidden="true"></i>
 			</div>
-			<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 text-left wasbietenwirinnerclass2" id="wasbietenwirbeschrDiv">
-				<p style="text-align: left;">
-					<span style="font-weight: 400;font-size:55px;">
-						<strong>
-							Was bieten wir ?
-						</strong>
-					</span>
-				</p>
-				<p style="text-align: left;">
-					<span style="font-weight: 400;">
-						<br><br>
-						“Ein Nutzer - Ein Klick - 
-					</span>
-					<b>Dein Studienplatz</b>
-					<span style="font-weight: 400;">”
-						<br><br>
-					 </span>
-				 </p> 
-				 <p style="text-align: left;">
-				 	<span style="font-weight: 400;">
-				 		Denn wir erleichtern dir die 
-			 		</span>
-			 		<b>Studienplatzsuche
-				 		<span style="font-weight: 400;">!
-				 			<br><br>
-			 			</span>
-		 			</b>
-	 			</p>
-	 			<b>
-	 				<p style="text-align: left;">
-	 					<span style="font-weight: 400;line-height:2;">
-	 						Du bist verzweifelt und weißt nicht wo du 
-						</span>
-						<b>studieren</b>
-						<span style="font-weight: 400;line-height:2;">
-						 	kannst? Du hast den Überblick verloren was für verschiedene Voraussetzungen die jeweiligen 
-					 	</span>
-					 	<b>Universitäten</b>
-					 	<span style="font-weight: 400;line-height:2;">
-					 	 	verlangen? 
-					 	</span>
-					 	<span style="font-weight: 400;line-height:2;">
-					 		Dann bist du 
-					 	</span>
-					 	<b>HIER </b>
-					 	<span style="font-weight: 400;line-height:2;">
-					 		genau richtig. 
-					 	</span>
-					 	<span style="font-weight: 400;line-height:2;">
-					 		Du gibst einfach deinen 
-				 		</span>
-				 		<b>Notendurchschnitt</b>
-				 		<span style="font-weight: 400;line-height:2;">
-				 			, den gewünschten 
-				 		</span>
-				 		<b>Studienort</b>
-				 		<span style="font-weight: 400;line-height:2;">
-				 		 	und deinen 
-				 		</span>
-				 		<b>Wunschstudiengang</b>
-				 		<span style="font-weight: 400;line-height:2;">
-				 		 	ein und schon finden wir den passenden 
-				 		</span>
-				 		<b>Studienplatz</b>
-				 		<span style="font-weight: 400;line-height:2;">
-				 		 	für dich. Selbstverständlich reicht es auch, wenn du nur einen Eintrag in 
-				 		</span>
-				 		<b>Das Suchfeld</b>
-				 		<span style="font-weight: 400;line-height:2;">
-				 		 	eingibst. 
-				 		</span>
-				 		<span style="font-weight: 400;line-height:2;">
-				 		 	Sollte anhand deiner übermittelten Daten keine passende
-				 		</span>
-				 		<b> Universität </b>
-				 		<span style="font-weight: 400;line-height:2;">
-				 			gefunden worden sein, so bieten wir dir mögliche Alternativen, um doch noch auf deine Wunsch-
-				 		</span>
-				 		<b>Uni</b>
-				 		<span style="font-weight: 400;line-height:2;">
-				 		 	zukommen. 
-				 		</span>
-				 		<span style="font-weight: 400;line-height:2;">
-				 		 	(Bsp. 
-				 		</span>
-				 		<b>Studienplatzklage</b>
-				 		<span style="font-weight: 400;line-height:2;">
-				 			, 
-				 		</span>
-				 		<b>Ausbildungen</b>
-				 		<span style="font-weight: 400;line-height:2;">
-				 			) 
-				 		</span>
-				 		<span style="font-weight: 400;line-height:2;">
-				 			Wir wissen, wie du dich fühlst und was für eine nervenaufreibende Belastung diese Suche ist.
-				 		</span>
-			 		</p>
-		 		</b>
- 			</div>
-		</div>
- 	</div>
-
- 	<div class="vorteileclass text-left" id="vorteile">
-       	Vorteile
-        <div class="row text-left col-lg-12 col-md-12 col-sm-12 col-xs-12" id="vorteilerow">
-
-			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center vorteileinnerclass" id="timeSp">
-				<p>
-					<br>
-				</p>
-				<img alt="" src="./wsi_homepage_files/Vorteil1.png">
-				<p>
-					<br><br>
-				</p>
-				<p style="text-align:center;font-size:30px;color:#4D4D4D;">
-					Zeitsparend
-				</p>
-				<p>
-					<br><br>
-				</p>
-				<p style="text-align:center;font-size:16px;color:#4D4D4D;">
-					Keine Lust mehr dich durch ewig lange Zugangsvorraussetzungen und unverständlichen PDFs der Uni durchzukämpfen? Mit unserem Tool gehört aufwendige Recherche der Vergangenheit an!
-				</p>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center vorteileinnerclass" id="timeSp">
-				<p>
-					<br>
-				</p>
-				<img alt="" src="./wsi_homepage_files/Vorteil2.png">
-				<p>
-					<br><br>
-				</p>
-				<p style="text-align:center;font-size:30px;color:#4D4D4D;">
-					Übersichtlich
-				</p>
-				<p>
-					<br><br>
-				</p>
-				<p style="text-align:center;font-size:16px;color:#4D4D4D;">
-					Alle Studiengänge in einer Datenbank, alles was du jetzt noch machen musst, ist zu wissen, was du eigentlich studieren willst.
-				</p>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center vorteileinnerclass" id="timeSp">
-				<p>
-					<br>
-				</p>
-				<img alt="" src="./wsi_homepage_files/Vorteil3.png">
-				<p>
-					<br><br>
-				</p>
-				<p style="text-align:center;font-size:30px;color:#4D4D4D;">
-					Einfach
-				</p>
-				<p>
-					<br><br>
-				</p>
-				<p style="text-align:center;font-size:16px;color:#4D4D4D;">
-					Keine unverständlichen Anrechnungsformeln von Uni x,y. Du gibst einfach nur noch ein, was du Studieren willst und deine Zusatzqualifikationen und unser Tool rechnet die für dich passende Universität aus.
-				</p>
-			</div>
-		</div>
- 	</div>
-
- 	<div class="ueberunsclass text-left" id="ueberuns">
- 		Über uns
-        <div class="row" id="ueberunsrow">
-    	    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-left ueberunsinnerclass" id="person1div">
-	 			<img src="./wsi_homepage_files/Marvin.png" height="80%" width="100%" alt="some text">
-	 			<br><b>Marvin Bunde</b>
-	 			<br>CSO
-			</div>
-    	    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-left ueberunsinnerclass" id="person2div">
-	 			<img src="./wsi_homepage_files/jerry.png" height="80%" width="100%" alt="some text">
-	 			<br><b>Jeremy Daubas</b>
-	 			<br>CEO
-			</div>
-		    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-left ueberunsinnerclass" id="person3div">
-	 			<img src="./wsi_homepage_files/Wolfgang-1-400x265.jpg" height="100%" width="100%" alt="some text">
-	 			<br><b>Wolfgang v.d. Gablentz</b>
-	 			<br>CTO
-			</div>
-		    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-left ueberunsinnerclass" id="person4div">
-	 			<img src="./wsi_homepage_files/Laurenz.png" height="100%" width="100%" alt="some text">
-	 			<br><b>Laurenz Jaspers</b>
-	 			<br>COO
-			</div>
-			
-		</div>
- 	</div>
-
- <div id="blog" class="carousel slide slider text-left" data-ride="carousel">
- Blog
-<!--     Wrapper for slides -->
-    <div class="row">
-        <div class="col-xs-offset-3 col-xs-6">
-            <div class="carousel-inner" id="innerCarousel">
-            	<div class="item active">
-            		<div class="carousel-content">
-            			<div class="text_item" id="Aachen">
-            				<p class="blogtitle">
-            					Aachen
-        					</p>
-        					<p>
-    							<span>&nbsp;</span>
-    						</p>
-    						<p>
-    							<span class="blogtext">
-									Studieren in Aachen? Kein Problem. Aachen ist eine riesige Studentenstadt mit knapp 40.000 Studenten. 20 Studentenwohnheime bieten Platz für fast 5000 Studenten, trotzdem solltest du dich ranhalten, denn die Plätze sind sehr begehrt. Die RWTH ist eine der größten und traditionsreichsten Universitäten in Deutschland, auch die
-								</span>
-								<span class="centerimageField">
-									<img alt="" src="./wsi_homepage_files/Aachen.png" class="blogimage" title=""> 
-								</span>
-								<span class="blogtext">
-									historisch Interessierten unter uns kommen in Aachen voll auf ihre Kosten, denn Aachen bietet gleich zwei Weltkulturerbstätten.
-								</span>
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="item">
-					<div class="carousel-content">
-						<div class="text_item" id="Bonn">
-							<p class="blogtitle">
-								Bonn
-							</p>
-							<p>
-								<span>&nbsp;</span>
-							</p>
-							<p>
-								<span class="blogtext">
-									Bonn ist die ehemalige Hauptstadt Deutschlands und zählt mit seinen circa 320.000 Einwohnern zu einer der zwanzig größten Städten Deutschlands. Bonn blickt auf eine mehr als 2000 Jahre alten Geschichte zurück und so bietet Bonn viele Sehenswürdigkeiten, wie beispielsweise das Alte Rathaus. Aber sind wir mal ehrlich, du willst doch eher wissen, ob hier auch abends was los ist! ;) 
-								</span>
-								<span class="centerimageField">
-									<img alt="" src="./wsi_homepage_files/Bonn.png" class="blogimage" title=""> 
-								</span>
-								<span class="blogtext">
-									Keine Sorge es gibt genug Bars, Cafés, Restaurants und Clubs, und bei circa 34.000 Studenten wirst du schon genug Gleichgesinnte finden, die mit dir eine „Cola“ trinken wollen.
-								</span>
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="item">
-					<div class="carousel-content">
-						<div class="text_item" id="Berlin">
-							<p class="blogtitle">
-								Berlin
-							</p>
-							<p>
-								<span>&nbsp;</span>
-							</p>
-							<p>
-								<span class="blogtext">
-									Berlin, Deutschlands Hauptstadt. Von vielen Berlinern auch liebevoll die Muddastadt genannt, wirkt sie auf viele junge Menschen, wie wahrscheinlich auch auf dich, einen großen Reiz aus. Nicht ohne Grund… Berlin bietet alles, was junge Leute brauchen und wollen. So ist Berlin eine historisch präsente Stadt, mit seinen Schlössern, Parks und nicht zu vergessen das Brandenburger Tor und der Berliner Mauer. &nbsp;Aber das ist noch längst nicht alles. &nbsp;Erstklassige Universitäten, wie die Humboldt Universität zu Berlin, die Freie Universität Berlin, oder beispielsweise die Technische Universität Berlin haben hier ihren Platz gefunden. 
-								</span>
-								<span class="centerimageField">
-									<img alt="" src="./wsi_homepage_files/Berlin.png" class="blogimage" title="Brandenburger Tor"> 
-								</span>
-								<span class="blogtext">Nur zu studieren wäre auch ein bisschen langweilig oder? Deswegen hat Berlin alles was du brauchst um ein ausgefülltes Studentenleben zu führen, tausende von Bars, Cafés und Clubs warten hier auf dich. Der 	Sport darf auch nicht zu kurz kommen? Hier findest du alles von zahlreichen Fitnessclubs bis zu Sportvereinen jeglicher Art. Also studieren in Berlin? &nbsp;Unbedingt!&nbsp;
-								</span>
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="item">
-					<div class="carousel-content">
-						<div class="text_item" id="Bochum">
-							<p class="blogtitle">
-								Bochum
-							</p>
-							<p>
-								<span>&nbsp;</span>
-							</p>
-							<p>
-								<span class="blogtext">
-									Studieren in Bochum? Mit ca. 40.000 Studenten zählt Bochum nicht unbedingt zu den kleineren Studentenstädten. Also wenn du gerne neue Leute kennenlernst, wirst du hier deine Chance bekommen! ;) 
-								</span>
-								<span class="centerimageField">
-									<img alt="" src="./wsi_homepage_files/Bochum.png" class="blogimage" title=""> 
-								</span>
-								<span class="blogtext">
-									Bochum liegt genau im Zentrum des Ruhrgebiets, also auch wenn dir Bochum selber mal zu langweilig wird, was wir uns nicht vorstellen können, liegen Städte wie beispielsweise Dortmund gleich ums Eck.
-								</span>
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-        </div>
+		  <div class="form-group">
+		    <input type="text" class="form-control" placeholder="Medizin Berlin 1,5">
+		  </div>
+		  <button type="submit" class="btn btn-default">
+		  	<i class="fa fa-search" aria-hidden="true"></i>
+			</button>
+		</form>
+    <div class="slogan white center">
+    	<div class="slogan-main">
+    		<h2>
+    			Von Studenten für Studenten - Wir gehen den Weg gemeinsam!
+    		</h2>
+  		</div>
+  		<div class="slogan_signature">
+  			<h3>
+  				Dein WoStudiereIch Team
+  			</h3>
+  		</div>
     </div>
-<!--     Controls  -->
-    <a class="left carousel-control" data-slide="prev">
-	    <span class="glyphicon glyphicon-chevron-left" onclick="left()"></span>
-  </a>
- <a class="right carousel-control" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" onclick="right()"></span>
-  </a>
+    <div class="service-container">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-offset-2 col-md-3 col-xs-12">
+						<img src="./wsi_homepage_files/logo.8155b732.svg" alt="" class="img-responsive">
+					</div>
+					<div class="col-md-5 col-xs-12">
+						<h2 class="service">Was bieten wir?</h2>
+						<p class="service-promise">"Ein Nutzer - Ein Klick - <span class="bold">Dein Studienplatz</span>"</p>
+						<p class="service-help">Denn wir erleichtern dir die <span class="bold">Studienplatzsuche!</span></p>
+						<p class="service-text">Du bist verzweifelt und weißt nicht wo du <span class="bold">studieren</span> kannst? Du hast den Überblick verloren was für verschiedene Voraussetzungen die jeweiligen <span class="bold">Universitäten</span> verlangen? Dann bist du <span class="bold">HIER</span> genau richtig. Du gibst einfach <span class="bold">deinen</span> Notendurchschnitt, den gewünschten <span class="bold">Studienort</span> und deinen <span class="bold">Wunschstudiengang</span> ein und schon finden wir den passenden <span class="bold">Studienplatz</span> für dich. Selbstverständlich reicht es auch, wenn du deine Daten nur in EIN <span class="bold">Suchfeld</span> eingibst. Sollte anhand deiner übermittelten Daten keine passende <span class="bold">Universität</span> gefunden worden sein, so bieten wir dir mögliche Alternativen, um doch noch auf <span class="bold">deine</span> Wunsch-Uni zukommen. (Bsp. <span class="bold">Studienplatzklage</span>, <span class="bold">Ausbildungen</span>) Wir wissen, wie du dich fühlst und was für eine nervenaufreibende Belastung diese Suche ist.</p>
+					</div>
+				</div>
+			</div>
+    </div>
+ 	<div class="advantages-container">
+ 		<div class="section-title">Vorteile</div>
+ 		<div class="container">
+ 			<div class="row">
+ 				<div class="col-md-4 col-xs-12">
+					<img class="img-responsive" alt="" src="./wsi_homepage_files/Vorteil1.png">
+					<p class="section-subtitle">Zeitsparend</p>
+					<p class="subsection-text">
+						Keine Lust mehr dich durch ewig lange Zugangsvorraussetzungen und unverständlichen PDFs der Uni durchzukämpfen? Mit unserem Tool gehört aufwendige Recherche der Vergangenheit an!
+					</p>
+ 				</div>
+ 				<div class="col-md-4 col-xs-12">
+					<img class="img-responsive" alt="" src="./wsi_homepage_files/Vorteil2.png">
+ 					<p class="section-subtitle">Übersichtlich</p>
+ 					<p class="subsection-text">
+ 						Alle Studiengänge in einer Datenbank, alles was du jetzt noch machen musst, ist zu wissen, was du eigentlich studieren willst.
+ 					</p>
+ 				</div>
+ 				<div class="col-md-4 col-xs-12">
+					<img class="img-responsive" alt="" src="./wsi_homepage_files/Vorteil3.png">
+ 					<p class="section-subtitle">Einfach</p>
+ 					<p class="subsection-text">
+ 						Keine unverständlichen Anrechnungsformeln von Uni x,y. Du gibst einfach nur noch ein, was du Studieren willst und deine Zusatzqualifikationen und unser Tool rechnet die für dich passende Universität aus.
+ 					</p>
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	<div class="about-us-container">
+ 	<div class="section-title">Über uns</div>
+ 		<div class="container">
+ 			<div class="row">
+ 				<div class="col-md-3 col-xs-12">
+ 					<img src="./wsi_homepage_files/Marvin.png" alt="" class="img-responsive">
+ 					<p class="team-position">CSO</p>
+ 					<p class="team-assignment">Sales & Unternehmenspräsentation</p>
+ 				</div>
+ 				<div class="col-md-3 col-xs-12">
+ 					<img src="./wsi_homepage_files/jerry.png" alt="" class="img-responsive">
+ 					<p class="team-position">CEO</p>
+ 					<p class="team-assignment">Marketing</p>
+ 				</div>
+ 				<div class="col-md-3 col-xs-12">
+ 					<img src="./wsi_homepage_files/Wolfgang-1-400x265.jpg" alt="" class="img-responsive">
+ 					<p class="team-position">CTO</p>
+ 					<p class="team-assignment"></p>
+ 				</div>
+ 				<div class="col-md-3 col-xs-12">
+ 					<img src="./wsi_homepage_files/Laurenz.png" alt="" class="img-responsive">
+ 					<p class="team-position">COO</p>
+ 					<p class="team-assignment"></p>
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	<div class="blog-container">
+ 	<div class="section-title">Blog</div>
+ 		<div class="container">
+ 			<div class="row">
+ 				<div class="col-md-12">
+ 					
+	 				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	 				  <!-- Wrapper for slides -->
+	 				  <div class="carousel-inner center" role="listbox">
+	 				    <div class="item center active">
+	 				      <div class="carousel-title">Aachen</div>
+	 				      <img class="img-responsive center-img carousel-img" src="./wsi_homepage_files/Aachen.png" alt="...">
+	 				      <div class="item-text">
+	 				      	Studieren in Aachen? Kein Problem. Aachen ist eine riesige Studentenstadt mit knapp 40.000 Studenten. 20 Studentenwohnheime bieten Platz für fast 5000 Studenten, trotzdem solltest du dich ranhalten, denn die Plätze sind sehr begehrt. Die RWTH ist eine der größten und traditionsreichsten Universitäten in Deutschland, auch die historisch Interessierten unter uns kommen in Aachen voll auf ihre Kosten, denn Aachen bietet gleich zwei Weltkulturerbstätten.
+	 				      </div>
+	 				    </div>
+	 				    <div class="item">
+	 				      <div class="carousel-title">Bonn</div>
+	 				      <img class="img-responsive center-img carousel-img" src="./wsi_homepage_files/Bonn.png" alt="...">
+								<div class="item-text">
+									Bonn ist die ehemalige Hauptstadt Deutschlands und zählt mit seinen circa 320.000 Einwohnern zu einer der zwanzig größten Städten Deutschlands. Bonn blickt auf eine mehr als 2000 Jahre alten Geschichte zurück und so bietet Bonn viele Sehenswürdigkeiten, wie beispielsweise das Alte Rathaus. Aber sind wir mal ehrlich, du willst doch eher wissen, ob hier auch abends was los ist! ;) Keine Sorge es gibt genug Bars, Cafés, Restaurants und Clubs, und bei circa 34.000 Studenten wirst du schon genug Gleichgesinnte finden, die mit dir eine „Cola“ trinken wollen.
+								</div>
+	 				    </div>
+	 				    <div class="item">
+	 				      <div class="carousel-title">Berlin</div>
+	 				      <img class="img-responsive center-img carousel-img" src="./wsi_homepage_files/Berlin.png" alt="...">
+								<div class="item-text">
+									Berlin, Deutschlands Hauptstadt. Von vielen Berlinern auch liebevoll die Muddastadt genannt, wirkt sie auf viele junge Menschen, wie wahrscheinlich auch auf dich, einen großen Reiz aus. Nicht ohne Grund… Berlin bietet alles, was junge Leute brauchen und wollen. So ist Berlin eine historisch präsente Stadt, mit seinen Schlössern, Parks und nicht zu vergessen das Brandenburger Tor und der Berliner Mauer. &nbsp;Aber das ist noch längst nicht alles. &nbsp;Erstklassige Universitäten, wie die Humboldt Universität zu Berlin, die Freie Universität Berlin, oder beispielsweise die Technische Universität Berlin haben hier ihren Platz gefunden. Nur zu studieren wäre auch ein bisschen langweilig oder? Deswegen hat Berlin alles was du brauchst um ein ausgefülltes Studentenleben zu führen, tausende von Bars, Cafés und Clubs warten hier auf dich. Der 	Sport darf auch nicht zu kurz kommen? Hier findest du alles von zahlreichen Fitnessclubs bis zu Sportvereinen jeglicher Art. Also studieren in Berlin? &nbsp;Unbedingt!&nbsp;
+								</div>
+	 				    </div>
+	 				    <div class="item">
+	 				      <div class="carousel-title">Bochum</div>
+	 				      <img class="img-responsive center-img carousel-img" src="./wsi_homepage_files/Bochum.png" alt="...">
+								<div class="item-text">
+									Studieren in Bochum? Mit ca. 40.000 Studenten zählt Bochum nicht unbedingt zu den kleineren Studentenstädten. Also wenn du gerne neue Leute kennenlernst, wirst du hier deine Chance bekommen! ;) Bochum liegt genau im Zentrum des Ruhrgebiets, also auch wenn dir Bochum selber mal zu langweilig wird, was wir uns nicht vorstellen können, liegen Städte wie beispielsweise Dortmund gleich ums Eck.
+								</div>
+	 				    </div>
+	 				  </div>
 
-</div>	
-      
-<!-- res -->
+	 				  <!-- Controls -->
+	 				  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+	 				    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	 				    <span class="sr-only">Previous</span>
+	 				  </a>
+	 				  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+	 				    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	 				    <span class="sr-only">Next</span>
+	 				  </a>
+	 				</div>
+ 				</div>
+
+ 			</div>
+ 		</div>
+ 	</div>
+
 				<div class="masthead clearfix hidden" id="navig">
 				 	<div class="col-lg-3 col-md-3 col-sm-5 col-xs-12" id="smallLogo">
       					<div class="logo-text-small" onclick="backHome()"><span class="home-headline" style="opacity: 1;"><span style="color: rgb(95, 137, 215);">Wo</span></span><span class="home-headline" style="opacity: 1;"><span style="color: rgb(161, 212, 128);">Studiere</span></span><span class="home-headline" style="opacity: 1;"><span style="color: rgb(226, 193, 94);">Ich</span></span></div>
@@ -492,7 +296,7 @@
 	<div class="motivationText hidden text-right" id="motivation_text">
 		<button class="btn btn-default" id="button_mt" type="button" onclick="showResults()">Schließen</button><br><br>
 		<div class="motivationTextInner text-center" id="motText">
-		<div id="spkId" class="text-left"><style type="text/css">ol{margin:0;padding:0}table td,table th{padding:0}.c2{font-size:13.5pt;color:#ffffff;font-weight:700}.c7{background-color:#ffffff;max-width:451.4pt;padding:72pt 72pt 72pt 72pt}.c10{color:#c5ced5;font-size:10.5pt}.c11{padding-top:14pt;padding-bottom:2pt}.c4{color:#1155cc;text-decoration:underline}.c1{color:inherit;text-decoration:inherit}.c0{orphans:2;widows:2}.c5{padding-top:-3pt}.c9{font-weight:700}.c8{text-align:center}.c12{font-size:14pt}.c3{height:11pt}.c6{padding-top:-5pt}.title{padding-top:0pt;color:#000000;font-size:26pt;padding-bottom:3pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}.subtitle{padding-top:0pt;color:#666666;font-size:15pt;padding-bottom:16pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}li{color:#000000;font-size:11pt;font-family:"Arial"}p{margin:0;color:#000000;font-size:11pt;font-family:"Arial"}h1{padding-top:20pt;color:#000000;font-size:20pt;padding-bottom:6pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h2{padding-top:18pt;color:#000000;font-size:16pt;padding-bottom:6pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h3{padding-top:16pt;color:#434343;font-size:14pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h4{padding-top:14pt;color:#666666;font-size:12pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h5{padding-top:12pt;color:#666666;font-size:11pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h6{padding-top:12pt;color:#666666;font-size:11pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;font-style:italic;orphans:2;widows:2;text-align:left}</style><p class="c0 c8"><span class="c9 c12">Studienplatzklage</span></p><p class="c0 c8 c3"><span class="c9 c12"></span></p><p class="c0"><span>In wenigen Schritten zu deinem Studienplatz!</span></p><p class="c0"><span>Deine Durchschnittsnote ist nicht ausreichend und du weißt nicht, wie du trotzdem deinen Wunschstudiengang absolvieren kannst?</span></p><p class="c0"><span>In der heutigen Zeit ist es nicht verwerflich sich mit dem Thema Studienplatzklage auseinanderzusetzen. </span></p><p class="c0"><span>Bei der Kanzlei unseres Vertrauens erfährst du alles, was Dir eine Studienplatzklage bringt und mit welchen Erfolgschancen du in den jeweiligen Studiengängen rechnen kannst. &nbsp;</span></p><p class="c0"><span>Durch seine langjährige Erfahrung kennt er sich in diesem Bereich sehr gut aus und kann </span><span class="c9">Dich</span><span>&nbsp;daher bestens beraten, ob eine Klage sinnvoll ist, oder welche Alternativen es sonst noch gibt.</span></p><p class="c0"><span>An welcher Universität, Hoch- oder Fachhochschule du auch immer deinen Studienplatz einklagen möchtest, diese Kanzlei ist bundesweit unterwegs und hilft Dir!</span></p><p class="c0 c3"><span></span></p><p class="c0"><span>Einfach eine Email schreiben oder sich eine kostenlose telefonische Beratung geben lassen!</span></p><p class="c0"><span>Fragen kostet nichts...</span></p><p class="c0"><span>Er freut sich von dir zu hören!</span></p><p class="c0 c3"><span></span></p><p class="c0"><span>Andreas Jakubietz</span></p><p class="c0"><span>Fachanwalt für Verwaltungsrecht</span></p><p class="c0 c3"><span></span></p><p class="c0"><span>Kurfürstendamm 194, 10707 Berlin</span></p><p class="c0 c3"><span></span></p><p class="c0"><span>Tel: 030- 700 159 620&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p class="c0 c3"><span></span></p><p class="c0"><span>Mail: </span><span class="c4"><a class="c1" href="mailto:Studienplatz@nc-med.de">Studienplatz@nc-med.de</a></span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><h3 class="c0 c11" id="h.ii5d4xacpwdi"><span class="c2">Rechtsanwalt</span></h3><p class="c0 c3 c6"><span class="c10"></span></p><p class="c0 c6"><span class="c10">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p class="c0 c5"><span class="c10">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p class="c0"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p class="c0 c3"><span></span></p><p class="c0 c3"><span></span></p><p class="c0 c3"><span></span></p></div></div>
+		<div id="spkId" class="text-left"><p class="c0 c8"><span class="c9 c12">Studienplatzklage</span></p><p class="c0 c8 c3"><span class="c9 c12"></span></p><p class="c0"><span>In wenigen Schritten zu deinem Studienplatz!</span></p><p class="c0"><span>Deine Durchschnittsnote ist nicht ausreichend und du weißt nicht, wie du trotzdem deinen Wunschstudiengang absolvieren kannst?</span></p><p class="c0"><span>In der heutigen Zeit ist es nicht verwerflich sich mit dem Thema Studienplatzklage auseinanderzusetzen. </span></p><p class="c0"><span>Bei der Kanzlei unseres Vertrauens erfährst du alles, was Dir eine Studienplatzklage bringt und mit welchen Erfolgschancen du in den jeweiligen Studiengängen rechnen kannst. &nbsp;</span></p><p class="c0"><span>Durch seine langjährige Erfahrung kennt er sich in diesem Bereich sehr gut aus und kann </span><span class="c9">Dich</span><span>&nbsp;daher bestens beraten, ob eine Klage sinnvoll ist, oder welche Alternativen es sonst noch gibt.</span></p><p class="c0"><span>An welcher Universität, Hoch- oder Fachhochschule du auch immer deinen Studienplatz einklagen möchtest, diese Kanzlei ist bundesweit unterwegs und hilft Dir!</span></p><p class="c0 c3"><span></span></p><p class="c0"><span>Einfach eine Email schreiben oder sich eine kostenlose telefonische Beratung geben lassen!</span></p><p class="c0"><span>Fragen kostet nichts...</span></p><p class="c0"><span>Er freut sich von dir zu hören!</span></p><p class="c0 c3"><span></span></p><p class="c0"><span>Andreas Jakubietz</span></p><p class="c0"><span>Fachanwalt für Verwaltungsrecht</span></p><p class="c0 c3"><span></span></p><p class="c0"><span>Kurfürstendamm 194, 10707 Berlin</span></p><p class="c0 c3"><span></span></p><p class="c0"><span>Tel: 030- 700 159 620&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p class="c0 c3"><span></span></p><p class="c0"><span>Mail: </span><span class="c4"><a class="c1" href="mailto:Studienplatz@nc-med.de">Studienplatz@nc-med.de</a></span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><h3 class="c0 c11" id="h.ii5d4xacpwdi"><span class="c2">Rechtsanwalt</span></h3><p class="c0 c3 c6"><span class="c10"></span></p><p class="c0 c6"><span class="c10">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p class="c0 c5"><span class="c10">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p class="c0"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p class="c0 c3"><span></span></p><p class="c0 c3"><span></span></p><p class="c0 c3"><span></span></p></div></div>
 <!-- 		<div class="mastfoot hidden" id="motText_footer">  -->
 			<div class="unten" id="motText_footer">
 				<div class="inner">
@@ -516,7 +320,7 @@
 	<div class="contactText hidden text-right" id="Kontakte_text">
  		<button class="btn btn-default" id="button_mt" type="button" onclick="back(&#39;contact&#39;)">Schließen</button><br><br> 
 		<div class="motivationTextInner text-center" id="contactText">
-		<div id="contactId" class="text-left">		<title></title>	<meta name="generator" content="LibreOffice 4.3.3.2 (Linux)">	<meta name="created" content="00:00:00">	<meta name="changedby" content="wvdg ">	<meta name="changed" content="2016-11-22T15:03:47.650330810">	<style type="text/css">		p { color: #000000; font-family: "Arial"; font-size: 11pt }		td p { color: #000000; font-family: "Arial"; font-size: 11pt }	</style><p style="background: transparent">Kontakt:</p><p>Wie können wir dir weiterhelfen?</p><p>Du hast Fragen oder Anmerkungen zu unserer Homepage?</p><p>Schreib uns einfach eine E-Mail und wir werden dir schnellstmöglichst antworten.</p><p>Bunde, Daubas, Jasper und von der Gablentz WoStudiereIch GbR</p><p>Viktoria-Luise Platz 3</p><p>10777 Berlin</p><a name="t.eeba6822ef9a3e19f0ea4b94e9deb463e0a821ad"></a><a name="t.0"></a><table cellpadding="2" cellspacing="2">	<tbody><tr>		<td style="border: none; padding: 0cm">			<p>Telefon:</p>		</td>		<td style="border: none; padding: 0cm">			<p>+49 172 1599505</p>		</td>	</tr>	<tr>		<td style="border: none; padding: 0cm">			<p>E-Mail:</p>		</td>		<td style="border: none; padding: 0cm">			<p><a href="mailto:info@wostudiereich.de">Info@WoStudiereIch.de</a></p>		</td>	</tr></tbody></table><p><br><br></p></div></div>
+		<div id="contactId" class="text-left">		<title></title>	<meta name="generator" content="LibreOffice 4.3.3.2 (Linux)">	<meta name="created" content="00:00:00">	<meta name="changedby" content="wvdg ">	<meta name="changed" content="2016-11-22T15:03:47.650330810">	<p style="background: transparent">Kontakt:</p><p>Wie können wir dir weiterhelfen?</p><p>Du hast Fragen oder Anmerkungen zu unserer Homepage?</p><p>Schreib uns einfach eine E-Mail und wir werden dir schnellstmöglichst antworten.</p><p>Bunde, Daubas, Jasper und von der Gablentz WoStudiereIch GbR</p><p>Viktoria-Luise Platz 3</p><p>10777 Berlin</p><a name="t.eeba6822ef9a3e19f0ea4b94e9deb463e0a821ad"></a><a name="t.0"></a><table cellpadding="2" cellspacing="2">	<tbody><tr>		<td style="border: none; padding: 0cm">			<p>Telefon:</p>		</td>		<td style="border: none; padding: 0cm">			<p>+49 172 1599505</p>		</td>	</tr>	<tr>		<td style="border: none; padding: 0cm">			<p>E-Mail:</p>		</td>		<td style="border: none; padding: 0cm">			<p><a href="mailto:info@wostudiereich.de">Info@WoStudiereIch.de</a></p>		</td>	</tr></tbody></table><p><br><br></p></div></div>
 <!-- 			<div class="mastfoot hidden" id="kontakte_footer"> -->
 			<div class="unten" id="kontakte_footer">
 				<div class="inner">
@@ -529,7 +333,7 @@
 	<div class="contactText hidden text-right" id="impressum_text">
  		<button class="btn btn-default" id="button_mt" type="button" onclick="back(&#39;impressum&#39;)">Schließen</button><br><br> 
 		<div class="motivationTextInner text-center" id="impressumText">
-		<div id="impressumId" class="text-left">		<title></title>	<meta name="generator" content="LibreOffice 4.3.3.2 (Linux)">	<meta name="created" content="00:00:00">	<meta name="changedby" content="wvdg ">	<meta name="changed" content="2016-11-22T15:03:21.937462130">	<style type="text/css">		p { color: #000000; font-family: "Arial"; font-size: 11pt }		td p { color: #000000; font-family: "Arial"; font-size: 11pt }		h1 { border: none; padding: 0cm; color: #000000; font-family: "Arial"; font-size: 20pt; line-height: 114%; text-align: left; widows: 2; orphans: 2 }		h2 { border: none; padding: 0cm; color: #000000; font-family: "Arial"; font-size: 16pt; line-height: 114%; text-align: left; widows: 2; orphans: 2 }	</style><h1 style="background: transparent"><a name="h.8s69yxp6ecwm"></a><font color="#000000"><span style="background: transparent">Impressum</span></font></h1><h2 style="background: transparent"><a name="h.nxrnrk5qc7ml"></a><font color="#000000"><span style="background: transparent">Angaben gemäß § 5 TMG:</span></font></h2><p style="background: transparent"><font color="#000000"><span style="background: transparent">Bunde, Daubas, Jasper und von der Gablentz WoStudiereIch GbR</span></font></p><p style="background: transparent"><font color="#000000"><span style="background: transparent">Viktoria-Luise Platz 3</span></font></p><p style="background: transparent"><font color="#000000"><span style="background: transparent">10777 Berlin</span></font></p><a name="t.db442dde6dd241ab6ac6fe993dab3b58544dd0d2"></a><a name="t.0"></a><table cellpadding="2" cellspacing="2">	<tbody><tr>		<td style="border: none; padding: 0cm">			<p style="background: transparent"><font color="#000000"><span style="background: transparent">Telefon:			</span></font>			</p>		</td>		<td style="border: none; padding: 0cm">			<p style="background: transparent"><font color="#000000"><span style="background: transparent">+49			172 1599505</span></font></p>		</td>	</tr>	<tr>		<td style="border: none; padding: 0cm">			<p style="background: transparent"><font color="#000000"><span style="background: transparent">E-Mail:</span></font></p>		</td>		<td style="border: none; padding: 0cm">			<p style="background: transparent"><font color="#000000"><span style="background: transparent">info@wostudiereich.de</span></font></p>		</td>	</tr></tbody></table><p style="background: transparent"><font color="#000000"><span style="background: transparent">&nbsp;</span></font></p><h2 style="background: transparent"><a name="h.q867esku90vh"></a><font color="#000000"><span style="background: transparent">Vertreten durch:</span></font></h2><p style="background: transparent"><font color="#000000"><span style="background: transparent">Marvin Bunde, Jeremy Daubas, Laurenz Jasper und Wolfgang von der Gablentz</span></font></p><p style="background: transparent"><font color="#000000"><span style="background: transparent">Quelle:<a href="https://www.google.com/url?q=https://www.e-recht24.de/&amp;sa=D&amp;ust=1479821015594000&amp;usg=AFQjCNGDRAS5fudVD-Md85oYYzYRXwPQsw">eRecht24</a></span></font></p></div></div>
+		<div id="impressumId" class="text-left">		<title></title>	<meta name="generator" content="LibreOffice 4.3.3.2 (Linux)">	<meta name="created" content="00:00:00">	<meta name="changedby" content="wvdg ">	<meta name="changed" content="2016-11-22T15:03:21.937462130">	<h1 style="background: transparent"><a name="h.8s69yxp6ecwm"></a><font color="#000000"><span style="background: transparent">Impressum</span></font></h1><h2 style="background: transparent"><a name="h.nxrnrk5qc7ml"></a><font color="#000000"><span style="background: transparent">Angaben gemäß § 5 TMG:</span></font></h2><p style="background: transparent"><font color="#000000"><span style="background: transparent">Bunde, Daubas, Jasper und von der Gablentz WoStudiereIch GbR</span></font></p><p style="background: transparent"><font color="#000000"><span style="background: transparent">Viktoria-Luise Platz 3</span></font></p><p style="background: transparent"><font color="#000000"><span style="background: transparent">10777 Berlin</span></font></p><a name="t.db442dde6dd241ab6ac6fe993dab3b58544dd0d2"></a><a name="t.0"></a><table cellpadding="2" cellspacing="2">	<tbody><tr>		<td style="border: none; padding: 0cm">			<p style="background: transparent"><font color="#000000"><span style="background: transparent">Telefon:			</span></font>			</p>		</td>		<td style="border: none; padding: 0cm">			<p style="background: transparent"><font color="#000000"><span style="background: transparent">+49			172 1599505</span></font></p>		</td>	</tr>	<tr>		<td style="border: none; padding: 0cm">			<p style="background: transparent"><font color="#000000"><span style="background: transparent">E-Mail:</span></font></p>		</td>		<td style="border: none; padding: 0cm">			<p style="background: transparent"><font color="#000000"><span style="background: transparent">info@wostudiereich.de</span></font></p>		</td>	</tr></tbody></table><p style="background: transparent"><font color="#000000"><span style="background: transparent">&nbsp;</span></font></p><h2 style="background: transparent"><a name="h.q867esku90vh"></a><font color="#000000"><span style="background: transparent">Vertreten durch:</span></font></h2><p style="background: transparent"><font color="#000000"><span style="background: transparent">Marvin Bunde, Jeremy Daubas, Laurenz Jasper und Wolfgang von der Gablentz</span></font></p><p style="background: transparent"><font color="#000000"><span style="background: transparent">Quelle:<a href="https://www.google.com/url?q=https://www.e-recht24.de/&amp;sa=D&amp;ust=1479821015594000&amp;usg=AFQjCNGDRAS5fudVD-Md85oYYzYRXwPQsw">eRecht24</a></span></font></p></div></div>
 <!-- 			<div class="mastfoot hidden" id="kontakte_footer"> -->
 			<div class="unten" id="impressum_footer">
 				<div class="inner">
@@ -541,7 +345,7 @@
 	<div class="teilnahmebedText hidden text-right" id="Teilnahmebed_text">
  		<button class="btn btn-default" id="button_mt" type="button" onclick="back(&#39;teilnahme&#39;)">Schließen</button><br><br> 
 		<div class="motivationTextInner text-center" id="TeilnahmebedText">
-		<div id="teilnahmeBedId" class="text-left">		<title></title>	<meta name="generator" content="LibreOffice 4.3.3.2 (Linux)">	<meta name="created" content="00:00:00">	<meta name="changedby" content="wvdg ">	<meta name="changed" content="2016-11-22T15:04:17.133502512">	<style type="text/css">		h2.cjk { font-family: "Droid Sans Fallback" }		h2.ctl { font-family: "FreeSans" }	</style><h2 class="western" style="background: transparent"><a name="h.iex72fkosrg5"></a><font color="#000000"><span style="background: transparent">Teilnahmebedingungen</span></font></h2><p style="background: transparent"><font color="#000000"><span style="background: transparent">Vielen Dank, dass sie den Dienst von WoStudiereIch nutzen. Dieser wird von der Bunde, Daubas, Jasper und von der Gablentz WoStudiereIch.de GbR Viktoria-Luise Platz 3</span></font></p><p style="background: transparent"><font color="#000000"><span style="background: transparent">10777 Berlin, zur Verfügung gestellt. </span></font></p><p style="background: transparent"><font color="#000000"><span style="background: transparent">Teilnahmebedingungen der Bunde, Daubas, Jasper und von der Gablentz WoStudiereIch.de GbR regeln das Vertragsverhältnis zwischen der Bunde, Daubas, Jasper und von der Gablentz WoStudiereIch.de GbR und dem jeweiligen Nutzer unserer Suchplattform unter der Domain WoStudiereIch.de.</span></font></p><p style="background: transparent"><font color="#000000"><span style="background: transparent">Das Erbringen von Leistungen der Bunde, Daubas, Jasper und von der Gablentz WoStudiereIch.de GbR findet ausschließlich auf der Grundlage dieser Teilnahmbedigungen statt. Andere Bedingungen des Nutzers, die außerhalb dieser Teilnahmebedingungen liegen, bedürfen der ausdrücklichen schriftlichen Zustimmung der Bunde, Daubas, Jasper und von der Gablentz WoStudiereIch.de GbR.</span></font></p><p style="background: transparent"><font color="#000000"><span style="background: transparent">Das Angebot umfasst eine Suchmaschine, die es dem Nutzer durch wenige Eingaben, den für sie passenden Studiengang aus unserer Datenbank anzeigt. Hierbei handelt es sich um die Daten des vorangegangenen Semesters und stellen lediglich einen Richtwert dar. &nbsp; </span></font></p><h2 class="western" style="background: transparent"><a name="h.72jyrztnqrx9"></a><font color="#000000"><span style="background: transparent">Haftung für unsere Dienste</span></font></h2><p style="background: transparent"><font color="#000000"><span style="background: transparent">Die Bunde, Daubas, Jasper und von der Gablentz WoStudiereIch.de GbR &nbsp;haftet nach den gesetzlichen Bestimmungen, bei Vorsatz und grober Fahrlässigkeit, sowie im Falle arglistig verschwiegener Mängel. Der Nutzer verpflichtet sich, durch die Teilnahme an unserem Dienst, die vom Dienst gemachten Angaben, auf Richtigkeit zu prüfen.</span></font></p><h2 class="western" style="background: transparent"><a name="h.2a7editwemmk"></a><font color="#000000"><span style="background: transparent">Teilnahme</span></font></h2><p style="background: transparent"><font color="#000000"><span style="background: transparent">Dem Nutzer unserer Suchmaschine fallen keine Kosten an.</span></font></p><p style="background: transparent"><font color="#000000"><span style="background: transparent">Das Akzeptieren unserer Teilnahmebedingungen, kommt durch Bestätigung der Suchabfrage, bei Betätigung des Buttons “Los” und/oder alternativ durch Drücken der Taste “Enter” auf der Tastatur.</span></font></p><h2 class="western" style="background: transparent"><a name="h.ig838j5nvcl9"></a><font color="#000000"><span style="background: transparent">Erreichbarkeit</span></font></h2><p style="background: transparent"><font color="#000000"><span style="background: transparent">Wir streben eine durchgängige Erreichbarkeit an. Jedoch können kurzfristige Störungen auftreten und dies zur vorübergehenden Einstellung unseres Dienstes führen. Daher erkennt der Nutzer an, dass eine durchgängige Erreichbarkeit unseres Dienstes technisch nicht zu garantieren ist.</span></font></p><h2 class="western" style="background: transparent"><a name="h.fvm82akmdx4p"></a><a name="h.n24jnvetxcd1"></a><font color="#000000"><span style="background: transparent">Schlussbestimmungen</span></font></h2><p style="background: transparent"><font color="#000000"><span style="background: transparent">Im Falle eines Widerspruchs einzelner Passagen, haben die zusätzlichen Bedingungen im Einzelfall Vorrang. Jeglichen Streitigkeiten im Zusammenhang mit diesen Teilnahmebedingungen unterliegen deutschem Recht unter Ausschluss des UN-Kaufrechts.</span></font></p><p style="background: transparent">.</p></div></div>
+		<div id="teilnahmeBedId" class="text-left">		<title></title>	<meta name="generator" content="LibreOffice 4.3.3.2 (Linux)">	<meta name="created" content="00:00:00">	<meta name="changedby" content="wvdg ">	<meta name="changed" content="2016-11-22T15:04:17.133502512">	<h2 class="western" style="background: transparent"><a name="h.iex72fkosrg5"></a><font color="#000000"><span style="background: transparent">Teilnahmebedingungen</span></font></h2><p style="background: transparent"><font color="#000000"><span style="background: transparent">Vielen Dank, dass sie den Dienst von WoStudiereIch nutzen. Dieser wird von der Bunde, Daubas, Jasper und von der Gablentz WoStudiereIch.de GbR Viktoria-Luise Platz 3</span></font></p><p style="background: transparent"><font color="#000000"><span style="background: transparent">10777 Berlin, zur Verfügung gestellt. </span></font></p><p style="background: transparent"><font color="#000000"><span style="background: transparent">Teilnahmebedingungen der Bunde, Daubas, Jasper und von der Gablentz WoStudiereIch.de GbR regeln das Vertragsverhältnis zwischen der Bunde, Daubas, Jasper und von der Gablentz WoStudiereIch.de GbR und dem jeweiligen Nutzer unserer Suchplattform unter der Domain WoStudiereIch.de.</span></font></p><p style="background: transparent"><font color="#000000"><span style="background: transparent">Das Erbringen von Leistungen der Bunde, Daubas, Jasper und von der Gablentz WoStudiereIch.de GbR findet ausschließlich auf der Grundlage dieser Teilnahmbedigungen statt. Andere Bedingungen des Nutzers, die außerhalb dieser Teilnahmebedingungen liegen, bedürfen der ausdrücklichen schriftlichen Zustimmung der Bunde, Daubas, Jasper und von der Gablentz WoStudiereIch.de GbR.</span></font></p><p style="background: transparent"><font color="#000000"><span style="background: transparent">Das Angebot umfasst eine Suchmaschine, die es dem Nutzer durch wenige Eingaben, den für sie passenden Studiengang aus unserer Datenbank anzeigt. Hierbei handelt es sich um die Daten des vorangegangenen Semesters und stellen lediglich einen Richtwert dar. &nbsp; </span></font></p><h2 class="western" style="background: transparent"><a name="h.72jyrztnqrx9"></a><font color="#000000"><span style="background: transparent">Haftung für unsere Dienste</span></font></h2><p style="background: transparent"><font color="#000000"><span style="background: transparent">Die Bunde, Daubas, Jasper und von der Gablentz WoStudiereIch.de GbR &nbsp;haftet nach den gesetzlichen Bestimmungen, bei Vorsatz und grober Fahrlässigkeit, sowie im Falle arglistig verschwiegener Mängel. Der Nutzer verpflichtet sich, durch die Teilnahme an unserem Dienst, die vom Dienst gemachten Angaben, auf Richtigkeit zu prüfen.</span></font></p><h2 class="western" style="background: transparent"><a name="h.2a7editwemmk"></a><font color="#000000"><span style="background: transparent">Teilnahme</span></font></h2><p style="background: transparent"><font color="#000000"><span style="background: transparent">Dem Nutzer unserer Suchmaschine fallen keine Kosten an.</span></font></p><p style="background: transparent"><font color="#000000"><span style="background: transparent">Das Akzeptieren unserer Teilnahmebedingungen, kommt durch Bestätigung der Suchabfrage, bei Betätigung des Buttons “Los” und/oder alternativ durch Drücken der Taste “Enter” auf der Tastatur.</span></font></p><h2 class="western" style="background: transparent"><a name="h.ig838j5nvcl9"></a><font color="#000000"><span style="background: transparent">Erreichbarkeit</span></font></h2><p style="background: transparent"><font color="#000000"><span style="background: transparent">Wir streben eine durchgängige Erreichbarkeit an. Jedoch können kurzfristige Störungen auftreten und dies zur vorübergehenden Einstellung unseres Dienstes führen. Daher erkennt der Nutzer an, dass eine durchgängige Erreichbarkeit unseres Dienstes technisch nicht zu garantieren ist.</span></font></p><h2 class="western" style="background: transparent"><a name="h.fvm82akmdx4p"></a><a name="h.n24jnvetxcd1"></a><font color="#000000"><span style="background: transparent">Schlussbestimmungen</span></font></h2><p style="background: transparent"><font color="#000000"><span style="background: transparent">Im Falle eines Widerspruchs einzelner Passagen, haben die zusätzlichen Bedingungen im Einzelfall Vorrang. Jeglichen Streitigkeiten im Zusammenhang mit diesen Teilnahmebedingungen unterliegen deutschem Recht unter Ausschluss des UN-Kaufrechts.</span></font></p><p style="background: transparent">.</p></div></div>
 <!-- 			<div class="mastfoot hidden" id="kontakte_footer"> -->
 			<div class="unten" id="teilnahmebed_footer">
 				<div class="inner">
