@@ -24,7 +24,7 @@ body {
 .white {
   color: white; }
 
-.center {
+.center, .section-title {
   text-align: center;
   margin: 0 auto; }
 
@@ -44,9 +44,10 @@ body {
   .back-to-top:hover {
     color: #ada3a3; }
 
+.section-title {
+  font-size: 24px; }
+
 /* hide special elements due static site */
-nav + .teaser {
-  margin-top: 50px; }
 nav.navbar {
   border: none; }
 nav.navbar-default {
@@ -68,6 +69,11 @@ nav.navbar-default {
 .form-group i {
   line-height: inherit; }
 
+.teaser-add-height {
+  height: 250px; }
+.teaser-container {
+  padding-bottom: 25px; }
+
 .slogan {
   background-color: #1A1A1A;
   padding: 50px; }
@@ -87,7 +93,8 @@ nav.navbar-default {
 .carousel-img {
   width: 400px; }
 .carousel-inner {
-  width: 80%; }
+  width: 80%;
+  min-height: 450px; }
 
 footer {
   background-color: #241F2B; }

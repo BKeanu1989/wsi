@@ -3,3 +3,12 @@
 		line-height: inherit;
 	}
 }
+
+.teaser {
+	&-add-height {
+	height: 250px;
+	}
+	&-container {
+		padding-bottom: 25px;
+	}
+}

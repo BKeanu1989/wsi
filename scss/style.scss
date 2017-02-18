@@ -64,6 +64,10 @@ body {
   }
 }
 
+.section-title {
+  @extend .center;
+  font-size: 24px;
+}
 
 /* hide special elements due static site */ 
 
