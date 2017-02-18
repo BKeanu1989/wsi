@@ -51,11 +51,13 @@ body {
 nav.navbar {
   border: none; }
 nav.navbar-default {
-  background-color: initial;
+  background-color: rgba(255, 255, 255, 0);
   border-color: initial;
   color: white; }
   nav.navbar-default ul.navbar-nav > li > a {
     color: white; }
+  nav.navbar-default.greyish {
+    background-color: #241F2B; }
 
 .service-container {
   background-color: white; }

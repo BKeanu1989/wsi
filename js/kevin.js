@@ -1,5 +1,4 @@
 $(document).ready(function(){
-	var transparent = "rgba(255,255,255,0)";
 	// Der Button wird mit JavaScript erzeugt und vor dem Ende des body eingebunden.
 	var back_to_top_button = ['<a href="#top" class="back-to-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>'].join("");
 	$("body").append(back_to_top_button);
@@ -28,14 +27,10 @@ $(document).ready(function(){
 
 	$(function () {
 		$(window).scroll(function () {
-			if ($(this).scrollTop() < 50) {
-				$('nav').animate({
-					backgroundColor: transparent
-				}, 250);
-			} else {
-				$('nav').animate({
-					backgroundColor: '#241F2B',
-				},500);
+			if ($(this).scrollTop() > 50) {
+				$('nav').addClass('greyish');
+			}  else {
+				$('nav').removeClass('greyish');
 			}
 		});
 	});
