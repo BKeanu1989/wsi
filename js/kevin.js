@@ -29,8 +29,13 @@ $(document).ready(function(){
 		$(window).scroll(function () {
 			if ($(this).scrollTop() > 50) {
 				$('nav').addClass('greyish');
+				$('nav').removeClass('transparent transparent-initial');
+
 			}  else {
 				$('nav').removeClass('greyish');
+				if (!$('nav').hasClass('transparent-initial')) {
+					$('nav').addClass('transparent');
+				}
 			}
 		});
 	});

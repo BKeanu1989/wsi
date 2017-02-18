@@ -5,7 +5,7 @@ nav {
 		border:none;
 	}
 	&.navbar-default {
-		background-color: rgba(255,255,255,0);
+		background-color: $transparent;
 		border-color: initial;
 		color:white; 
 		ul {
@@ -14,10 +14,37 @@ nav {
 			}
 		}
 		&.greyish {
-			background-color: $blackishBackground;
+			// background-color: $blackishBackground;
+			animation-name: toGreyish;
+			animation-duration: 1s;
+			animation-fill-mode: forwards;
+		}
+		&.transparent {
+			animation-name: toTransparent;
+			animation-duration: 1s;
+			animation-fill-mode: forwards;
+			&-initial {
+				background-color: $transparent;
+			}
 		}
 	}
 
+
+// animation test
+@keyframes toGreyish {
+	100% {
+			background-color: $blackishBackground;
+
+	}
+}
+@keyframes toTransparent {
+	0% {
+		background-color: $blackishBackground;
+	}
+	100% {
+		background-color: $transparent;
+	}
+}
 
 }
 .nav-height {

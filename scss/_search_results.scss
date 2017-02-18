@@ -2,15 +2,7 @@
 	height: 200px;
 }
 
-.panel {
-	&-body {
-	padding: 15px 0;
-	}
-	&-row {
-		border-bottom: 1px solid #ddd;
-		padding: 15px 0;
-	}
-}
+
 
 @import "search_results/qualification";
 @import "search_results/summary";

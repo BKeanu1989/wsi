@@ -57,8 +57,23 @@ nav.navbar-default {
   nav.navbar-default ul.navbar-nav > li > a {
     color: white; }
   nav.navbar-default.greyish {
+    animation-name: toGreyish;
+    animation-duration: 1s;
+    animation-fill-mode: forwards; }
+  nav.navbar-default.transparent {
+    animation-name: toTransparent;
+    animation-duration: 1s;
+    animation-fill-mode: forwards; }
+    nav.navbar-default.transparent-initial {
+      background-color: rgba(255, 255, 255, 0); }
+@keyframes toGreyish {
+  100% {
+    background-color: #241F2B; } }
+@keyframes toTransparent {
+  0% {
     background-color: #241F2B; }
-
+  100% {
+    background-color: rgba(255, 255, 255, 0); } }
 .nav-height {
   height: 50px; }
 
@@ -109,6 +124,10 @@ nav.navbar-default {
 .panel-row {
   border-bottom: 1px solid #ddd;
   padding: 15px 0; }
+
+.single-university-container {
+  padding: 10px;
+  border-bottom: 1px solid #ada3a3; }
 
 footer {
   background-color: #241F2B; }
