@@ -34,6 +34,16 @@ body {
 .service-container {
   background-color: white; }
 
+.back-to-top {
+  background: #241F2B;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 1em;
+  color: white; }
+  .back-to-top:hover {
+    color: #ada3a3; }
+
 /* hide special elements due static site */
 nav + .teaser {
   margin-top: 50px; }
@@ -77,6 +87,13 @@ nav.navbar-default {
 .carousel-img {
   width: 400px; }
 .carousel-inner {
-  width: 85%; }
+  width: 80%; }
+
+footer {
+  background-color: #241F2B; }
+  footer i {
+    color: white; }
+  footer .legal a {
+    color: white; }
 
 /*# sourceMappingURL=style.css.map */

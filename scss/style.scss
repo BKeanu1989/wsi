@@ -8,7 +8,8 @@ $colorWo: rgb(95, 137, 215);
 $colorStudiere: rgb(161, 212, 128);;
 $colorIch: rgb(226, 193, 94);
 $greyishBackground: #F6F6F6; 
-
+$blackishBackground: #241F2B;
+$greyishBackToTop: #ada3a3;
 html, body {
   height:100%;
   padding:0;
@@ -51,9 +52,21 @@ body {
   background-color: white;
 }
 
+.back-to-top {
+  background:$blackishBackground;
+  position: fixed;
+  bottom:20px;
+  right:20px;
+  padding:1em;
+  color:white;
+  &:hover {
+    color: $greyishBackToTop;
+  }
+}
 
 
 /* hide special elements due static site */ 
 
 @import "general/nav";
 @import "homepage";
+@import "general/footer";
