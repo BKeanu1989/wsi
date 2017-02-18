@@ -24,7 +24,7 @@ body {
 .white {
   color: white; }
 
-.center, .section-title {
+.center, .section-title, .panel-title {
   text-align: center;
   margin: 0 auto; }
 
@@ -58,6 +58,9 @@ nav.navbar-default {
     color: white; }
   nav.navbar-default.greyish {
     background-color: #241F2B; }
+
+.nav-height {
+  height: 50px; }
 
 .service-container {
   background-color: white; }
@@ -98,11 +101,18 @@ nav.navbar-default {
   width: 80%;
   min-height: 450px; }
 
+.search_result-add-height {
+  height: 200px; }
+
+.panel-body {
+  padding: 15px 0; }
+.panel-item {
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0; }
+
 footer {
   background-color: #241F2B; }
   footer i {
     color: white; }
   footer .legal a {
     color: white; }
-
-/*# sourceMappingURL=style.css.map */

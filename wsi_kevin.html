@@ -49,10 +49,10 @@
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      <ul class="nav navbar-nav navbar-right bold">
 		        <li class="mynav"><a href="/wsi_kevin.html">Home</a></li>
-		        <li class="mynav"><a href="#">Was bieten wir</a></li>
-		        <li class="mynav"><a href="#">Vorteile</a></li>
-		        <li class="mynav"><a href="#">Über uns</a></li>
-		        <li class="mynav"><a href="#">Blog</a></li>
+		        <li class="mynav"><a href="#service-container">Was bieten wir</a></li>
+		        <li class="mynav"><a href="#advantages-container">Vorteile</a></li>
+		        <li class="mynav"><a href="#about-us-container">Über uns</a></li>
+		        <li class="mynav"><a href="#blog-container">Blog</a></li>
 		        <li class="mynav"><a href="#">Kontakt</a></li>
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
@@ -68,16 +68,18 @@
 					<h2>Finde den Studienplatz, der zu deiner Note passt! (Beta)</h2>
 				</div>
 			</div>
-			<form class="form-inline center">
-				<div class="form-group">
-					<i class="fa fa-question form-control" aria-hidden="true"></i>
-				</div>
+			<form class="form-inline center" action="wsi_search_results.html">
+
 			  <div class="form-group">
-			    <input type="text" class="form-control" placeholder="Medizin Berlin 1,5">
+			    <div class="input-group">
+			      <span class="input-group-addon">?</span>
+			      <input type="text" class="form-control" placeholder="Medizin Berlin 1,5">
+			      <span class="input-group-btn">
+			        <input class="btn btn-default" type="submit" value="search">
+			      </span>
+			    </div>
 			  </div>
-			  <button type="submit" class="btn btn-default">
-			  	<i class="fa fa-search" aria-hidden="true"></i>
-				</button>
+			  
 			</form>
     </div>
 
@@ -93,7 +95,7 @@
 	  			</h3>
 	  		</div>
 	    </div>
-    <div class="service-container">
+    <div class="service-container" id="service-container">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-offset-2 col-md-3 col-xs-12">
@@ -108,7 +110,7 @@
 				</div>
 			</div>
     </div>
- 	<div class="advantages-container">
+ 	<div class="advantages-container" id="advantages-container">
  		<div class="section-title">Vorteile</div>
  		<div class="container">
  			<div class="row">
@@ -136,7 +138,7 @@
  			</div>
  		</div>
  	</div>
- 	<div class="about-us-container">
+ 	<div class="about-us-container" id="about-us-container">
  	<div class="section-title">Über uns</div>
  		<div class="container">
  			<div class="row">
@@ -163,7 +165,7 @@
  			</div>
  		</div>
  	</div>
- 	<div class="blog-container">
+ 	<div class="blog-container" id="blog-container">
  	<div class="section-title">Blog</div>
  		<div class="container">
  			<div class="row">
