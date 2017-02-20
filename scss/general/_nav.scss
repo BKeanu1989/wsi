@@ -11,7 +11,7 @@ nav {
 		ul {
 				&.navbar-nav > li > a {
 				color: white;
-				text-shadow: 2px 2px black;
+				text-shadow: 1px 1px black;
 			}
 		}
 		&.greyish {
@@ -31,6 +31,10 @@ nav {
 
 		.navbar-brand {
 			font-size:32px;
+		}
+
+		span:not(:first-child) {
+			margin-left: -10px;
 		}
 	}
 

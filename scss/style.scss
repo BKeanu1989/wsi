@@ -7,17 +7,18 @@
 $colorWo: rgb(95, 137, 215);
 $colorStudiere: rgb(161, 212, 128);;
 $colorIch: rgb(226, 193, 94);
-$greyishBackground: #F6F6F6; 
+$greyishBackground: #F6F6F6;
 $blackishBackground: #241F2B;
 $greyishBackToTop: #ada3a3;
 $transparent: rgba(255,255,255,0);
+$section-title-color: #4d4d4d;
 html, body {
   height:100%;
   padding:0;
   margin:0;
 }
 body {
-  background-image: url('http://www.thesleeperinside.com:8080/wostudiereich/images/hpbackround.jpg');  
+  background-image: url('http://www.thesleeperinside.com:8080/wostudiereich/images/hpbackround.jpg');
   background-color: #ffffff;
   background-position: center;
   background-size: cover;
@@ -65,12 +66,17 @@ body {
   }
 }
 
-.section-title {
-  @extend .center;
-  font-size: 24px;
+[class$=-container] {
+  padding-top:50px;
 }
 
-/* hide special elements due static site */ 
+.section-title {
+  font-size: 24px;
+  font-weight: 300;
+  color: $section-title-color;
+}
+
+/* hide special elements due static site */
 
 @import "general/nav";
 @import "homepage";

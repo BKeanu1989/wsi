@@ -24,7 +24,7 @@ body {
 .white {
   color: white; }
 
-.center, .section-title, .panel-title {
+.center, .panel-title {
   text-align: center;
   margin: 0 auto; }
 
@@ -44,8 +44,13 @@ body {
   .back-to-top:hover {
     color: #ada3a3; }
 
+[class$=-container] {
+  padding-top: 50px; }
+
 .section-title {
-  font-size: 24px; }
+  font-size: 24px;
+  font-weight: 300;
+  color: #4d4d4d; }
 
 /* hide special elements due static site */
 nav.navbar {
@@ -56,7 +61,7 @@ nav.navbar-default {
   color: white; }
   nav.navbar-default ul.navbar-nav > li > a {
     color: white;
-    text-shadow: 2px 2px black; }
+    text-shadow: 1px 1px black; }
   nav.navbar-default.greyish {
     animation-name: toGreyish;
     animation-duration: 1s;
@@ -69,6 +74,8 @@ nav.navbar-default {
       background-color: rgba(255, 255, 255, 0); }
   nav.navbar-default .navbar-brand {
     font-size: 32px; }
+  nav.navbar-default span:not(:first-child) {
+    margin-left: -10px; }
 @keyframes toGreyish {
   100% {
     background-color: #241F2B; } }
@@ -100,6 +107,9 @@ nav.navbar-default {
     padding-bottom: 25px; }
     .teaser-container label {
       color: white; }
+    .teaser-container form .row {
+      margin: 0 auto;
+      width: 80%; }
   .teaser h1 {
     font-size: 8em;
     margin-bottom: 5px;
