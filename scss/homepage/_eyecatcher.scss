@@ -6,7 +6,7 @@
 
 .teaser {
 	&-add-height {
-	height: 250px;
+	height: 150px;
 	}
 	&-container {
 		padding-bottom: 25px;
@@ -15,4 +15,16 @@
 			color:white;
 		}
 	}
+	h1 {
+		font-size: 8em;
+		margin-bottom: 5px;
+		text-shadow: 1px 1px black;
+	}
+
+	h2 {
+		margin-top:5px;
+	}
+
+
+	margin-bottom: 50px;
 }

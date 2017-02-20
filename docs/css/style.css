@@ -55,7 +55,8 @@ nav.navbar-default {
   border-color: initial;
   color: white; }
   nav.navbar-default ul.navbar-nav > li > a {
-    color: white; }
+    color: white;
+    text-shadow: 2px 2px black; }
   nav.navbar-default.greyish {
     animation-name: toGreyish;
     animation-duration: 1s;
@@ -66,6 +67,8 @@ nav.navbar-default {
     animation-fill-mode: forwards; }
     nav.navbar-default.transparent-initial {
       background-color: rgba(255, 255, 255, 0); }
+  nav.navbar-default .navbar-brand {
+    font-size: 32px; }
 @keyframes toGreyish {
   100% {
     background-color: #241F2B; } }
@@ -89,12 +92,20 @@ nav.navbar-default {
 .form-group i {
   line-height: inherit; }
 
-.teaser-add-height {
-  height: 250px; }
-.teaser-container {
-  padding-bottom: 25px; }
-  .teaser-container label {
-    color: white; }
+.teaser {
+  margin-bottom: 50px; }
+  .teaser-add-height {
+    height: 150px; }
+  .teaser-container {
+    padding-bottom: 25px; }
+    .teaser-container label {
+      color: white; }
+  .teaser h1 {
+    font-size: 8em;
+    margin-bottom: 5px;
+    text-shadow: 1px 1px black; }
+  .teaser h2 {
+    margin-top: 5px; }
 
 .slogan {
   background-color: #1A1A1A;
